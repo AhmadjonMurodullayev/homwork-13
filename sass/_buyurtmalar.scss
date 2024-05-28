@@ -1,0 +1,43 @@
+.buyurtmalar{
+    width: 85%;
+    height: 100%;
+    margin: 60px auto;
+     .buyurtmalar-logo{
+        width: 719px;
+        height: 110px;
+        text-align: center;
+        margin: 0 auto;
+        h1{
+            width: 262px;
+            height: 50px;
+            margin: auto;
+        }
+     }
+     .buyurtmalar-box{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+         button{
+            width: 167px;
+            height: 40px;
+            border-radius: 5px;
+            margin: auto;
+         }
+        .buyurtmalar-box-blog{
+            width: 932px;
+            height: 278px;
+            margin: 20px auto;
+            display: flex;
+            .blog-text-stil{
+                 width: 500px;
+                 height: 120px;
+                 display: flex;
+                 flex-direction: column;
+                 gap: 10px;
+                //  border: 2px solid;
+                 margin: 90px 40px;
+            }
+        }
+     }
+}  

@@ -1,0 +1,57 @@
+.buyurtma-berish{
+    width: 100%;
+    height: 75vh;
+    background-color: 
+    #00BAFC;
+    display: flex;
+    .buyurtma-box{
+        width: 700px;
+        height: 90%;
+        margin: 40px auto;
+        .buyurtma-inut{
+            width: 348px;
+            height: 320px;
+            background-color: #fff;
+            margin: 20px auto;
+            border-radius: 5px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            button{
+                width: 167px;
+                height: 40px;
+                border-radius: 5px;
+                margin: 5px auto;
+            }
+            input{
+                width: 300px;
+                height: 56px;
+                border-radius: 5px;
+                margin: 10px auto;
+                padding: 5px 5px;
+                color: black;
+                background-color: 
+                #F3F3F3;
+                border: none;
+            }
+            select{
+                width: 300px;
+                height: 56px;
+                border-radius: 5px;
+                margin: 10px auto;
+                padding: 5px 5px;
+                color: black;
+                background-color: 
+                #F3F3F3;
+                border: none;
+            }
+
+        }
+        .buyurtma-logo{
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+    }
+}

@@ -1,0 +1,56 @@
+.serviz{
+    width: 85%;
+    height: 100%;
+    margin: 10px auto;
+    .serviz-text{
+       width: 400px;
+       height: 90px;
+       margin: 0px auto;
+       text-align: center;
+       p{
+        width: 619px;
+        height: 48px;
+       margin: 10px -90px;
+       }
+    }
+    .serviz-imglar{
+        width: 100%;
+        height: 576px;
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 20px 0px;
+    }
+    .serviz-reklama{
+        width: 320px;
+        height: 260px;
+        text-align: center;
+        border-radius: 5px;
+        box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.14);
+        h1{
+            width: 193px;
+            height: 40px;
+          margin: 10px auto;
+        }
+    }
+     .serviz-link{
+       width: 450px;
+       height: 40px;
+       display: flex;
+       align-items: center;
+       gap: 20px;
+       margin: auto;
+       button{
+        width: 162px;
+        height: 40px;
+        border-radius: 5px;
+       }
+       #serviz-a{
+        color: 
+        #00BAFC;
+        border-bottom: 1px solid;
+       }
+     }
+
+}
