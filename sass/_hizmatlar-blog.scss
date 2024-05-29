@@ -1,0 +1,72 @@
+ .hizmatlar-blog{
+    width: 85%;
+    height: 100%;
+    margin: 0px auto ;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    .hizmat-sayitlari{
+        width: 804px;
+        height: 378px;
+        box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.14);
+        border-radius: 5px;
+        margin: 0 auto;
+        display: flex;
+        .sayitlar-img{
+            width: 320px;
+            height: 100%;
+            padding: 32px 32px  ; 
+        }
+        .sayitlar-text{
+            width: 100%;
+            height: 100%;  
+            h2{
+                width: 200px;
+                height: 26px;
+                font-size: 20px;
+                margin: 32px 0px 10px 0px;
+            }
+            p{
+                width: 500px;
+                height: 48px;
+                font-size: 16px;
+            }
+            span {
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                margin: 10px 0px;
+                h5{
+                    font-size: 16px;
+                }
+                i{
+                    color: 
+                    #00BAFC;
+                    background-color: #00BAFC;
+                    border: none;
+                    overflow: hidden;
+                    border-radius: 50%;
+                }
+            }
+            .saytlar-button{
+                margin:10px 0px;
+                display: flex;
+                align-items: center;
+                gap: 20px
+                ;
+                button{
+                    width: 160px;
+                    height: 40px;
+                    border-radius: 5px ;
+                }
+                h4{
+                    color: #00BAFC;
+                    font-size: 16px;
+                    border-bottom: 2px solid ;
+                }
+            }
+        }
+        
+    }
+ 
+ }

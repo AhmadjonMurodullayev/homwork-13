@@ -245,6 +245,12 @@ header button {
   flex-direction: column;
   gap: 10px;
 }
+.buyurtma-berish .buyurtma-box .buyurtma-logo h1 {
+  color: #fff;
+}
+.buyurtma-berish .buyurtma-box .buyurtma-logo p {
+  color: #fff;
+}
 
 footer {
   width: 100%;
@@ -291,4 +297,92 @@ footer .footer-link3 span {
   display: flex;
   align-items: center;
   gap: 10px;
+}
+
+.hizmatlar-bulimi {
+  width: 85%;
+  height: 30vh;
+  margin: 130px auto;
+}
+.hizmatlar-bulimi h1 {
+  width: 194px;
+  height: 42px;
+  font-size: 40px;
+  margin: 40px auto;
+}
+.hizmatlar-bulimi p {
+  width: 800px;
+  height: 72px;
+  text-align: center;
+  margin: 0px auto;
+  font-size: 16px;
+}
+
+.hizmatlar-blog {
+  width: 85%;
+  height: 100%;
+  margin: 0px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.hizmatlar-blog .hizmat-sayitlari {
+  width: 804px;
+  height: 378px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.14);
+  border-radius: 5px;
+  margin: 0 auto;
+  display: flex;
+}
+.hizmatlar-blog .hizmat-sayitlari .sayitlar-img {
+  width: 320px;
+  height: 100%;
+  padding: 32px 32px;
+}
+.hizmatlar-blog .hizmat-sayitlari .sayitlar-text {
+  width: 100%;
+  height: 100%;
+}
+.hizmatlar-blog .hizmat-sayitlari .sayitlar-text h2 {
+  width: 200px;
+  height: 26px;
+  font-size: 20px;
+  margin: 32px 0px 10px 0px;
+}
+.hizmatlar-blog .hizmat-sayitlari .sayitlar-text p {
+  width: 500px;
+  height: 48px;
+  font-size: 16px;
+}
+.hizmatlar-blog .hizmat-sayitlari .sayitlar-text span {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 10px 0px;
+}
+.hizmatlar-blog .hizmat-sayitlari .sayitlar-text span h5 {
+  font-size: 16px;
+}
+.hizmatlar-blog .hizmat-sayitlari .sayitlar-text span i {
+  color: #00BAFC;
+  background-color: #00BAFC;
+  border: none;
+  overflow: hidden;
+  border-radius: 50%;
+}
+.hizmatlar-blog .hizmat-sayitlari .sayitlar-text .saytlar-button {
+  margin: 10px 0px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.hizmatlar-blog .hizmat-sayitlari .sayitlar-text .saytlar-button button {
+  width: 160px;
+  height: 40px;
+  border-radius: 5px;
+}
+.hizmatlar-blog .hizmat-sayitlari .sayitlar-text .saytlar-button h4 {
+  color: #00BAFC;
+  font-size: 16px;
+  border-bottom: 2px solid;
 }
